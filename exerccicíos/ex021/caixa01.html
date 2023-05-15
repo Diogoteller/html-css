@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+        h1 {  /* exemplo box-level */
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+          
+        /*  border-width: 10px;
+            border-style: solid;
+            border-color: black;
+           
+            podem ser substituidas pelo shorthand quando junta tudo em uma só linha */ 
+
+            border: 10px solid black;
+
+         /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;  
+            
+            mesmo caso no padding, se for tudo mesmo pixel pode colocar só um como no ex: abaixo */
+
+            padding: 10px;
+
+          /*  margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; 
+
+            mesma coisa no margin */ 
+
+            margin: 20px auto 40px auto;
+
+        /*  outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; 
+            
+            no outline tbm */
+
+            outline: 5px dashed salmon;
+
+
+        }
+
+        a { /* exe mplo inline-level */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Exmplos de caixas box-level</h1>
+    <p>Paragráfos tbm são Exmplos de box-level, más os <a href="#">links são exemplos de caixas inline-level</a>Vmaos ver como tudo isso funciona.</p>
