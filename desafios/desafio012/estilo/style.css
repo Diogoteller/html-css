@@ -13,7 +13,7 @@
     margin: 0px;
 padding: 0px;
 }
-html, bodey {
+html, body {
     background-color: darkgrey;
     font-family: var(--fonte01);
     
