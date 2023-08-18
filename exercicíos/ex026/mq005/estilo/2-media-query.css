@@ -1,0 +1,10 @@
+@charset "UTF 8";
+
+@media screen and (min-width: 900px) {
+    body, html {
+        background-image: url(imagem/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+}
