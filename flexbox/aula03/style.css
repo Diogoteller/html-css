@@ -1,0 +1,13 @@
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row wrap; /*atalho para flex-direction, flex-wrap*/
+    background-color: rgb(15, 76, 167);
+}
+.flex-item {
+    flex: 1 1 320px; /*atalho para flex-grow, flex-shrink, flex-basis */
+    height: 200px;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    
+}

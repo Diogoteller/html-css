@@ -22,7 +22,7 @@ Grandes telas: acima de 1200px
     }
     main {
         width: 90vw;
-        border: 2px solid black;
+        border: 2px solid rgb(0, 0, 0);
     }
      main h1 {
         text-shadow: none;
